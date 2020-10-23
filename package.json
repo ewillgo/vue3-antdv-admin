@@ -1,0 +1,32 @@
+{
+  "name": "vue3-antdv-admin",
+  "version": "0.1.0",
+  "main": "main.js",
+  "author": {
+    "name": "Will Leung",
+    "email": "ewill.leung@foxmail.com"
+  },
+  "description": "Vue3 Ant Design Admin",
+  "keywords": [
+    "Vue3",
+    "Vite",
+    "Ant Design"
+  ],
+  "license": "MIT",
+  "bugs": "https://github.com/ewillgo/vue3-antdv-admin/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ewillgo/vue3-antdv-admin.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.1",
+    "@vue/compiler-sfc": "^3.0.0-rc.1"
+  }
+}
