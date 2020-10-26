@@ -1,9 +1,14 @@
 {
+  "include": ["./**/*.ts"],
   "compilerOptions": {
+    "strict": true,
+    "outDir": "./dist",
     "target": "esnext",
     "module": "esnext",
-    "strict": true,
     "jsx": "preserve",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true
   }
 }
