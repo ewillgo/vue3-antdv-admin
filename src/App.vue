@@ -14,7 +14,8 @@ export default defineComponent({
   },
   setup(props: Props) {
     console.log('setup -> props', props)
-  
+    console.log('setup -> props', props)
+
     return {}
   }
 })
