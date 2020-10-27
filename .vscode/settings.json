@@ -1,4 +1,12 @@
 {
+  "editor.rulers": [120],
   "typescript.tsdk": "node_modules/typescript/lib",
-  "vetur.validation.script": false
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_line_length": 120,
+      "wrap_attributes": "force-expand-multiline",
+      "end_with_newline": false
+    }
+  }
 }
