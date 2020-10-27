@@ -8,7 +8,5 @@ module.exports = {
   alias: {
     '/@/': pathResolve('src')
   },
-  optimizeDeps: {
-    include: ['@ant-design/icons-vue']
-  }
+  optimizeDeps: {}
 }

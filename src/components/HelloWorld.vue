@@ -6,14 +6,12 @@
   </p>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   name: 'HelloWorld',
   props: {
-    // eslint-disable-next-line vue/require-default-prop
     msg: String
   },
-  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   data() {
     return {
       count: 0
