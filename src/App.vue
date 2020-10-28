@@ -16,7 +16,7 @@ export default defineComponent({
     HelloWorld
   },
   setup(prop: Prop) {
-    console.log("setup -> prop", prop)
+    console.log('setup -> prop', prop)
     return {}
   }
 })

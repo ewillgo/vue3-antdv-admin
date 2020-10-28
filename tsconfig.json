@@ -9,6 +9,7 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "noUnusedLocals": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
+    "allowJs": false
   }
 }
